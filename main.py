@@ -12,9 +12,9 @@ class ComponenteSchema(BaseModel):
 
 # 3. Nosso "Banco de Dados" temporário em memória
 estoque_laboratorio = [
-    {"id": 1, "nome": "Arduino Sensor Shield", "quantidade": 15, "categoria": "Placas de Expansão"},
-    {"id": 2, "nome": "Micro Servo Motor SG90", "quantidade": 42, "categoria": "Atuadores"},
-    {"id": 3, "nome": "Esteira em Acrílico", "quantidade": 2, "categoria": "Mecânica"}
+    {"id": 1, "nome": "Arduino Sensor Shield", "quantidade": 15, "categoria": "Placas de Expansão", "estado de conversão": "qualquer coisa"},
+    {"id": 2, "nome": "Micro Servo Motor SG90", "quantidade": 42, "categoria": "Atuadores", "estado de conversão": "moderado"},
+    {"id": 3, "nome": "Esteira em Acrílico", "quantidade": 2, "categoria": "Mecânica", "estado de conversão": "outrosim"}
 
 ]
 
